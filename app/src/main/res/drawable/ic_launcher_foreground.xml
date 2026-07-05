@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone do apps-hub: grade 2x2 de "tiles" (apps) com um em destaque — metáfora
+     de um hub/launcher. Centralizado na safe zone do ícone adaptativo. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- tile superior-esquerdo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,31 h10 a5,5 0 0 1 5,5 v10 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-10 a5,5 0 0 1 5,-5 z" />
+    <!-- tile superior-direito -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,31 h10 a5,5 0 0 1 5,5 v10 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-10 a5,5 0 0 1 5,-5 z" />
+    <!-- tile inferior-esquerdo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,57 h10 a5,5 0 0 1 5,5 v10 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-10 a5,5 0 0 1 5,-5 z" />
+    <!-- tile inferior-direito (destaque) -->
+    <path
+        android:fillColor="#F0B24A"
+        android:pathData="M62,57 h10 a5,5 0 0 1 5,5 v10 a5,5 0 0 1 -5,5 h-10 a5,5 0 0 1 -5,-5 v-10 a5,5 0 0 1 5,-5 z" />
+</vector>
