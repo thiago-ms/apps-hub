@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Visibilidade de pacotes (Android 11 / API 30+): sem isto o hub não
+         enxerga os outros apps (getLaunchIntentForPackage/getApplicationIcon
+         retornam null). Um <package> por app do hub. -->
+    <queries>
+        <package android:name="br.com.notes" />
+        <package android:name="br.com.siteblocker" />
+        <package android:name="br.com.utils" />
+        <package android:name="br.com.watchup" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppsHub">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppsHub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
