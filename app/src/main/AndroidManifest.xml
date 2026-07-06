@@ -9,6 +9,7 @@
         <package android:name="br.com.siteblocker" />
         <package android:name="br.com.utils" />
         <package android:name="br.com.watchup" />
+        <package android:name="br.com.gastos" />
     </queries>
 
     <application

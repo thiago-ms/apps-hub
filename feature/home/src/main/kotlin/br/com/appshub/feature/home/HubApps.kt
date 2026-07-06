@@ -13,4 +13,5 @@ val HUB_APPS = listOf(
     HubApp("br.com.siteblocker", "Bloqueador de Sites"),
     HubApp("br.com.utils", "Utilitários"),
     HubApp("br.com.watchup", "WatchUp"),
+    HubApp("br.com.gastos", "Gastos"),
 )
