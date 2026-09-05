@@ -10,6 +10,9 @@
         <package android:name="br.com.utils" />
         <package android:name="br.com.watchup" />
         <package android:name="br.com.gastos" />
+        <package android:name="br.com.myapps" />
+        <package android:name="br.com.people" />
+        <package android:name="br.com.wppchat" />
     </queries>
 
     <application

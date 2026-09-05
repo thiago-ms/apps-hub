@@ -1,8 +1,15 @@
 # apps-hub — hub dos meus apps Android
 
 App que lista os outros apps desta pasta (`notes`, `site-blocker`, `utilities`,
-`watch-up`) e, ao tocar num item, abre o app correspondente **já instalado** no
-aparelho. Não embute os outros apps — só os inicia via `Intent`.
+`watch-up`, `gastos`, `myapps`, `people`, `wpp-chat`) e, ao tocar num item,
+abre o app correspondente **já instalado** no aparelho. Não embute os outros apps —
+só os inicia via `Intent`.
+
+O registro fica em **dois lugares que andam em par**: a constante `HUB_APPS` em
+[`HubApps.kt`](feature/home/src/main/kotlin/br/com/appshub/feature/home/HubApps.kt)
+e o bloco `<queries>` do
+[`AndroidManifest.xml`](app/src/main/AndroidManifest.xml). Os dois são compilados
+dentro do APK, então acrescentar um app exige um release novo do hub.
 
 - **Linguagem/UI:** Kotlin + Jetpack Compose (Material 3)
 - **Build:** Docker (Makefile / docker compose) — não precisa de JDK/Gradle/SDK no host
